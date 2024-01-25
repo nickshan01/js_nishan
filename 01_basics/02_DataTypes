@@ -1,0 +1,45 @@
+//"use strict" //treat all js code as newer version or js
+
+//alert(3 + 3 ) // e are using node js, not browser 
+
+console.log(3 + 3);
+
+console.log("nishan")     //code should readable 
+
+let name =  "nishan"
+let age = 14 
+let isLoggedin = true
+
+/*
+
+data types are given below:
+number = 2 to 53 
+bigint 
+string = "nishan" 
+boolean = true  or false is saniya a gay?
+null = standalone value 
+undefined 
+symbol = unique 
+
+*/
+
+console.log(typeof age )
+
+
+//data types specify the type of  value which a variable holds.
+
+
+//x=3;  //value=data 3 is int .int is a valuetype(datatype)
+
+//int=1-100 x=1 int=1
+
+//bigint 100-100000000000000000000000000
+// " fbdhfb 1 2 3 4 " "ufehjfuiewdfhjn"
+let str= "Hello, World!";
+let num = 797;
+let floatNum = 25.57;
+let isLoggedout = false;
+let profileState;
+let hi = null;
+
+console.table([str, num, floatNum, isLoggedout, profileState, hi]);
